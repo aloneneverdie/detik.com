@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li>
+                <div class="upper-text">detikfinance</div>
+                <span class="business-plan">BUSINESS PLAN</span>
+                <div class="lower-text">COMPETITION 2023</div>
+            </li>
+            <li class="right-items">
+                <a href="#">About</a>
+                <a href="#">Mechanism</a>
+                <a href="#">Latest Update</a>
+                <button class="register-btn">Register</button>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="item-1">
+            <h2>Registrasi</h2>
+            
+        </section>
+        <div class="form-container">
+            <form class="registration-form">
+
+                <input type="text" id="fullname" name="fullname" placeholder="Nama Perusahaan" required>
+
+                <input type="tel" id="phonenumber" name="phonenumber" placeholder="Nomor Telepon" required>
+
+                <textarea id="password" name="company" placeholder="Tentang Perusahaan (Max. 200 karakter)" required></textarea>
+
+                <div class="upload-file">
+                    <div class="icon-add">
+                        <label for="file-upload" class="add-icon">+</label>
+                        <input type="file" id="file-upload" style="display: none;">
+                    </div>
+                </div>
+
+                <button type="submit" class="register-btn">Unggah File</button>
+            </form>
+           
+        </div>
+    </main>
+
+</body>
+</html>
